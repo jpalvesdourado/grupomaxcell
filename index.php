@@ -1,6 +1,8 @@
 <?php
 // Verificador de Sessão
-require 'verifica.php';    
+require 'verifica.php'; 
+
+//nada
 
 header("Location: ./inicio");
     
