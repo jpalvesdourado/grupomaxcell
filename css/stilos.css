@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/04/2015, 22:32:24
+    Author     : João Paulo Alves Dourado
+*/
+@media print { 
+    .notprint { visibility:hidden; } 
+}
+
+.icone-principal{
+    width: 100%;
+}
+
+.espaco{
+    height: 5px;
+    margin: 0px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+}
+
+.img_banner{
+    height: 100px;
+    width: 150px;
+}
+
+.pag-normal{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.img-brand{
+    height: 30px;
+    width: 30px;
+}
+
+.img-perfil{
+    height: 210px;
+    width: 210px;
+}
+
+.login-box,.register-box {
+    /** width:360px; **/
+    margin:7% auto
+}
+@media (max-width:768px) {
+    .login-box,.register-box {
+        width:90%;
+        margin-top:20px
+    }
+}
+.login-box-body,.register-box-body {
+    background:#fff;
+    padding:20px;
+    color:#444;
+    border-top:0;
+    color:#666
+}
+.login-box-body .form-control-feedback,.register-box-body .form-control-feedback {
+    color:#777
+}
+.login-box-msg,.register-box-msg {
+    margin:0;
+    text-align:center;
+    padding:0 20px 20px 20px
+}
+
+.login-page,.register-page {
+    background:#d2d6de
+}
+
+.login-logo,.register-logo {
+    font-size:35px;
+    text-align:center;
+    margin-bottom:25px;
+    font-weight:300
+}
+
+.login-logo a,.register-logo a {
+    color:#444
+}
+
+.perfil{
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.centro{
+    margin: 0px auto;
+    float: none;
+    text-align: center;
+}
+
+.janela{
+    max-width: 800px;
+}
+
+.btn-salvar{
+    float: right;
+    font-family: 'Tahoma';
+    margin: 10px;
+}
+
+.janela-content{
+    margin: 5px;
+}
+
+.img_instrutor{
+    min-height: 220px;
+    text-align: center;
+
+}
+
+@media print{
+    #noprint{
+        display: none;
+    }
+}

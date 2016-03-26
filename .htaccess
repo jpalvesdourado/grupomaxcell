@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteRule ^produtos/?$ modulos/pg-produtos.php [NC]
+RewriteRule ^categorias/?$ modulos/pg-categorias.php [NC]
+RewriteRule ^clientes/?$ modulos/pg-clientes.php [NC]
+RewriteRule ^inicio/?$ modulos/pg-inicio.php [NC]
+RewriteRule ^login/?$ modulos/pg-login.php [NC]
+RewriteRule ^erro-login/?$ modulos/pg-login.php?messagem=erro [NC]
+
+RewriteRule ^novacategoria?$ modulos/pg-categorias.php?acao=salvar [NC]
+RewriteRule ^novocliente?$ modulos/pg-clientes.php?acao=salvar [NC]
+
+RewriteRule ^categorias/excluir/([0-9]+)/?$ funcoes/func-excluir-categoria.php?acao=excluir&cod=$1 [NC]
+RewriteRule ^clientes/excluir/([0-9]+)/?$ funcoes/func-excluir-cliente.php?acao=excluir&cod=$1 [NC]
+
+RewriteRule ^alterarcategoria/([0-9]+)/?$ funcoes/func-alterar-categoria.php?acao=alterar [NC]
+RewriteRule ^alterarcliente/([0-9]+)/?$ funcoes/func-alterar-cliente.php?acao=alterar [NC]
