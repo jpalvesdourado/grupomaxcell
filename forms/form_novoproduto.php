@@ -8,13 +8,12 @@
             <div class="modal-body">
                 <form name="frm_novobanner" id="frm_novobanner" method="POST" action="#">
                     <div class="form-group">
-                        <label for="titulo" class="control-label">Descrição:</label>
-                        <input type="text" name="titulo" class="form-control" id="titulo" required="">
+                        <label for="descricao" class="control-label">Descrição:</label>
+                        <input type="text" name="descricao" class="form-control" id="descricao" required="">
                     </div>
                     <div class="form-group">
                         <label for="titulo" class="control-label">Tipo:</label>
-                        <input type="text" name="titulo" class="form-control" id="titulo" required="">
-                        <section name="titulo" class="form-control" id="titulo" required="">
+                        <section name="tipo" class="form-control" id="titulo" required="">
                             <option value="1">PRODUTO</option>
                             <option value="2">SERVIÇO</option>
                         </section> 

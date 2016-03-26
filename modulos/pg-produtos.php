@@ -9,7 +9,7 @@ include '../template/cabecalho.php';
 <p class="titulo">Cadastro de Produtos</p>
 <br>
 <div class="pull-right" style="padding: 7px;">
-    <a class="btn btn-default" href="#" data-toggle="modal" data-target="#frm_novobanner">
+    <a class="btn btn-default" href="#" data-toggle="modal" data-target="#frm_novoproduto">
         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
         Novo produto
     </a>

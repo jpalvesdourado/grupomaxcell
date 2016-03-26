@@ -93,6 +93,7 @@ include '../forms/frm_alterardados.php';
 include '../forms/form_novobanner.php';
 include '../forms/form_novacategoria.php';
 include '../forms/form_novoclientes.php';
+include '../forms/form_novoproduto.php';
 
 //Relatórios
 include '../relatorios/rel_paginasvisitadas.php';
