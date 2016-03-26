@@ -23,7 +23,7 @@ include '../template/cabecalho.php';
             <p class="espaco">&nbsp;</p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-2">
-            <a class="btn btn-default icone-principal">
+            <a class="btn btn-default icone-principal" href="./clientes">
                 <img src="./imagens/agt_family.png"/>
                 <p>Clientes</p>
             </a>
