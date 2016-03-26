@@ -2,7 +2,7 @@
 // Verificador de Sessão
 require 'verifica.php'; 
 
-//nada
+//laedson
 
 header("Location: ./inicio");
     
