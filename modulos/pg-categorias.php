@@ -38,7 +38,7 @@ $acao = isset($_GET['acao']);
 
             $quant_registros = count($consulta);
 
-            if (($quant_registros > 0) && ($quant_registros <> 'vazio') ) {
+            if (($quant_registros > 0) && ($consulta <> 'vazio') ) {
                 for ($i = 0; $i < $quant_registros; $i++) {
                     $id = $consulta[$i]['id'];
                     $descricao = $consulta[$i]['descricao'];

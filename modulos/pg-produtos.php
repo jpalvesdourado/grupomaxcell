@@ -2,6 +2,10 @@
 // Verificador de Sessão
 require '../verifica.php';   
 
+require '../classes/db.php';
+require '../classes/categorias.php';
+require '../classes/produtos.php';
+
 $pagina = "TogaWeb | Banners";
 include '../template/cabecalho.php';
 ?>

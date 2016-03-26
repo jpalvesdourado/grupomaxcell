@@ -11,23 +11,25 @@
                         <label for="descricao" class="control-label">Descrição:</label>
                         <input type="text" name="descricao" class="form-control" id="descricao" required="">
                     </div>
-                    <div class="form-group">
-                        <label for="tipo" class="control-label">Tipo:</label>
-                        <select name="tipo" class="form-control" id="tipo" required="">
-                            <option value="1">PRODUTO</option>
-                            <option value="2">SERVIÇO</option>
-                        </select> 
-                    </div>
-                    <div class="form-group">
-                        <label for="id_categoria" class="control-label">Categoria:</label>
-                        <select name="id_categoria" class="form-control" id="id_categoria" required="">
-                            <option value="1">PRODUTO</option>
-                            <option value="2">SERVIÇO</option>
-                        </select> 
-                    </div>
-                    <div class="form-group">
-                        <label for="valor" class="control-label">Valor: </label>
-                        <input type="text" name="valor" class="form-control" id="valor" required="">
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label for="tipo" class="control-label">Tipo:</label>
+                            <select name="tipo" class="form-control" id="tipo" required="">
+                                <option value="1">PRODUTO</option>
+                                <option value="2">SERVIÇO</option>
+                            </select> 
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="id_categoria" class="control-label">Categoria:</label>
+                            <select name="id_categoria" class="form-control" id="id_categoria" required="">
+                                <option value="1">PRODUTO</option>
+                                <option value="2">SERVIÇO</option>
+                            </select> 
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="valor" class="control-label">Valor: </label>
+                            <input type="text" name="valor" class="form-control" id="valor" required="">
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="reset" class="btn btn-default">
