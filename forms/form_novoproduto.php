@@ -12,23 +12,22 @@
                         <input type="text" name="descricao" class="form-control" id="descricao" required="">
                     </div>
                     <div class="form-group">
-                        <label for="titulo" class="control-label">Tipo:</label>
-                        <section name="tipo" class="form-control" id="titulo" required="">
+                        <label for="tipo" class="control-label">Tipo:</label>
+                        <select name="tipo" class="form-control" id="tipo" required="">
                             <option value="1">PRODUTO</option>
                             <option value="2">SERVIÇO</option>
-                        </section> 
+                        </select> 
                     </div>
                     <div class="form-group">
-                        <label for="titulo" class="control-label">Categoria:</label>
-                        <input type="text" name="titulo" class="form-control" id="titulo" required="">
-                        <section name="titulo" class="form-control" id="titulo" required="">
+                        <label for="id_categoria" class="control-label">Categoria:</label>
+                        <select name="id_categoria" class="form-control" id="id_categoria" required="">
                             <option value="1">PRODUTO</option>
                             <option value="2">SERVIÇO</option>
-                        </section> 
+                        </select> 
                     </div>
                     <div class="form-group">
-                        <label for="descricao" class="control-label">Valor: </label>
-                        <textarea name="descricao" class="form-control" id="descricao" required="" rows="8"></textarea>
+                        <label for="valor" class="control-label">Valor: </label>
+                        <input type="text" name="valor" class="form-control" id="valor" required="">
                     </div>
                     <div class="modal-footer">
                         <button type="reset" class="btn btn-default">
