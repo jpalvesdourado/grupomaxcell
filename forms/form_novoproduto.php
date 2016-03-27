@@ -22,8 +22,20 @@
                         <div class="form-group col-md-4">
                             <label for="id_categoria" class="control-label">Categoria:</label>
                             <select name="id_categoria" class="form-control" id="id_categoria" required="">
-                                <option value="1">PRODUTO</option>
-                                <option value="2">SERVIÇO</option>
+                            <?php
+                                $mostrarCategorias = new Categorias();
+                                
+                                $dados = $mostrarCategorias->listar_categorias();
+                                
+                                if($mostrarCategorias <> 'vazio'){
+                                    for($i = 0; $i < $mostrarCategorias->tamanho; $i++){
+                                        $id_categoria = $dados[$i]['id'];
+                                        $descricaoCategoria = $dados[$i]['descricao'];
+                                        
+                                        echo "<option value='$id_categoria'>$descricaoCategoria</option>";
+                                    }
+                                }
+                            ?>
                             </select> 
                         </div>
                         <div class="form-group col-md-5">
