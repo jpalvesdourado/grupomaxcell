@@ -22,16 +22,17 @@ include '../template/cabecalho.php';
     <table class="table table-striped table-hover table-bordered table-responsive">
         <thead>
             <tr>
-                <th class="col-xs-1 col-md-1">Cod.</th>
-                <th class="col-xs-2 col-md-4">Descrição</th>
-                <th class="col-xs-1 col-md-2">Qtd.</th>
-                <th class="col-xs-1 col-md-2">Preço</th>
-                <th class="col-xs-1 col-md-3">Operações</th>
+                <th>Cod.</th>
+                <th>Descrição</th>
+                <th>Categoria</th>
+                <th>Qtd.</th>
+                <th>Preço</th>
+                <th>Operações</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td style="text-align: center; vertical-align: middle;" colspan="5">Nenhum registro encontrado!</td>
+                <td style="text-align: center; vertical-align: middle;" colspan="6">Nenhum registro encontrado!</td>
             </tr>
         </tbody>
     </table>
