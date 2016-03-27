@@ -87,7 +87,7 @@ class Produtos {
 
         $db = new BancoDeDados();
 
-        $select = "SELECT * FROM tb_produtos ORDER BY descricao ASC";
+        $select = "SELECT tb_produtos.*, tb_categorias.descricao AS 'categoria' FROM 'tb_produtos' INNER JOIN tb_categorias ON tb_produtos.id_categoria = tb_categorias.id ORDER BY tb_produtos.descricao;";
 
         $db->consulta($select);
 
