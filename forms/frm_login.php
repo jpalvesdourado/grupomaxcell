@@ -16,7 +16,7 @@
             </div><!-- /.login-logo -->
             <div class="container-fluid">
                 <div class="col-md-8">
-                    
+                    <img src="./imagens/vivo.png">
                 </div>
                 <div class="col-md-4 thumbnail" style="padding: 15px;">
                     <p class="login-box-msg">Acesso ao WebMaxcel</p>
