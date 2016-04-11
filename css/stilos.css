@@ -72,7 +72,7 @@ and open the template in the editor.
 }
 
 .login-page,.register-page {
-    background:#d2d6de
+    background: url(../imagens/fundo.jpg) repeat center 5px;
 }
 
 .login-logo,.register-logo {

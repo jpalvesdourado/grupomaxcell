@@ -1,10 +1,16 @@
 <div class="container">
     <div class="login-box">
-        <div class="login-logo">
-            <a href="http://www.playtecnologia.com.br/togaweb"><img src="imagens/Letter-W-icon.png" width="72" height="72"></a>
-            <a href="http://www.playtecnologia.com.br/togaweb"><b>Toga</b>WEB</a>
-        </div><!-- /.login-logo -->
+
         <div class="login-box-body col-md-4 col-md-offset-4">
+            <div class="login-logo">
+                <div class="pull-left">
+                    <p>www.grupomaxcel.com.br</p>
+                </div>
+                <div class="pull-right">
+                    <a href="http://www.playtecnologia.com.br/togaweb"><img src="imagens/Letter-W-icon.png" width="72" height="72"></a>
+                    <a href="http://www.playtecnologia.com.br/togaweb"><b>Toga</b>WEB</a>
+                </div>
+            </div><!-- /.login-logo -->
             <p class="login-box-msg">Insira seus dados para iniciar a sessão</p>
             <form name="login" method="POST" action="logar.php">
                 <div class="form-group has-feedback">
