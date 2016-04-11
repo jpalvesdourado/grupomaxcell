@@ -85,9 +85,11 @@
                     </form>
                 </div>
             </div>
+             <hr>
+             <a href="http://www.playtecnologia.com.br">2016 &copy; Play Tecnologia.</a>
         </div><!-- /.login-box-body -->
 
-
+       
     </div><!-- /.login-box -->
 </div>
 
