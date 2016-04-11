@@ -65,6 +65,10 @@ and open the template in the editor.
 .login-box-body .form-control-feedback,.register-box-body .form-control-feedback {
     color:#777
 }
+
+.nomargim{
+    margin: 0px;
+}
 .login-box-msg,.register-box-msg {
     margin:0;
     text-align:center;
@@ -76,7 +80,7 @@ and open the template in the editor.
 }
 
 .login-logo,.register-logo {
-    font-size:35px;
+    font-size:22px;
     text-align:center;
     margin-bottom:25px;
     font-weight:300
